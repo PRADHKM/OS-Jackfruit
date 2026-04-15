@@ -104,61 +104,61 @@ Here are the screenshots showing the functionality and performance of the Multi-
 <div align="center">
   <h3>1. Driver Initialization</h3>
   <img src="./screenshots/Picture1.png" width="80%" alt="Kernel module loaded" />
-  <p><em>Kernel module monitor.ko loaded and /dev/container_monitor created successfully, enabling communication between the supervisor and the memory monitor.</em></p>
+  <p><em>Kernel module monitor.ko loaded and /dev/container_monitor created successfully, enabling communication between the supervisor and the memory monitor</em></p>
   
   <br/>
 
   <h3>2. Supervisor Startup</h3>
   <img src="./screenshots/Picture2.png" width="80%" alt="Supervisor listening" />
-  <p><em>Supervisor process started successfully and listening on /tmp/mini_runtime.sock for CLI control requests.</em></p>
+  <p><em>Supervisor process started successfully and listening on /tmp/mini_runtime.sock for CLI control requests</em></p>
   
   <br/>
 
   <h3>3. Root Filesystem Preparation</h3>
   <img src="./screenshots/Picture3.png" width="80%" alt="Rootfs creation" />
-  <p><em>Per-container writable root filesystems (rootfs-alpha and rootfs-beta) created from the shared base image.</em></p>
+  <p><em>Per-container writable root filesystems (rootfs-alpha and rootfs-beta) created from the shared base image</em></p>
   
   <br/>
 
   <h3>4. Container Status Monitoring</h3>
   <img src="./screenshots/Picture4.png" width="80%" alt="Engine ps" />
-  <p><em>engine ps displaying metadata for multiple running containers, including container ID, PID, state, and configured memory limits.</em></p>
+  <p><em>engine ps displaying metadata for multiple running containers, including container ID, PID, state, and configured memory limits</em></p>
   
   <br/>
 
   <h3>5. Logging Pipeline</h3>
   <img src="./screenshots/Picture5.png" width="80%" alt="Container logging" />
-  <p><em>Container output successfully captured through the bounded-buffer logging pipeline and stored in logs/gamma.log.</em></p>
+  <p><em>Container output successfully captured through the bounded-buffer logging pipeline and stored in logs/gamma.log</em></p>
   
   <br/>
 
   <h3>6. CLI Log Inspection</h3>
   <img src="./screenshots/Picture6.png" width="80%" alt="CLI logging" />
-  <p><em>CLI command issued to inspect container logs, demonstrating communication between the command-line client and the supervisor.</em></p>
+  <p><em>CLI command issued to inspect container logs, demonstrating communication between the command-line client and the supervisor</em></p>
   
   <br/>
 
   <h3>7. Memory Soft Limit Enforcement</h3>
   <img src="./screenshots/Picture7.png" width="80%" alt="Soft limit warning" />
-  <p><em>Kernel module generated a soft-limit warning after the memwarn container exceeded its configured soft memory limit.</em></p>
+  <p><em>Kernel module generated a soft-limit warning after the memwarn container exceeded its configured soft memory limit</em></p>
   
   <br/>
 
   <h3>8. Memory Hard Limit Enforcement</h3>
   <img src="./screenshots/Picture8.png" width="80%" alt="Hard limit termination" />
-  <p><em>Kernel module enforced the hard memory limit by terminating the memkill container after excessive memory usage.</em></p>
+  <p><em>Kernel module enforced the hard memory limit by terminating the memkill container after excessive memory usage</em></p>
   
   <br/>
 
   <h3>9. CPU Scheduling Experiments</h3>
   <img src="./screenshots/Picture9.png" width="80%" alt="CPU scheduling" />
-  <p><em>Scheduling experiment using two CPU-bound workloads with different nice values to compare Linux scheduler behavior.</em></p>
+  <p><em>Scheduling experiment using two CPU-bound workloads with different nice values to compare Linux scheduler behavior</em></p>
   
   <br/>
 
-  <h3>10. Resource Monitoring Overview</h3>
-  <img src="./screenshots/Picture10.png" width="80%" alt="Resource monitoring" />
-  <p><em>Consolidated view of resource monitoring and container state during intensive workload execution.</em></p>
+  <h3>10. Runtime Teardown</h3>
+  <img src="./screenshots/Picture10.png" width="80%" alt="Cleanup" />
+  <p><em>Clean teardown of the runtime: supervisor stopped, no zombie processes remained, and the kernel module was unloaded</em></p>
 </div>
 
 > [!NOTE]

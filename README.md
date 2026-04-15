@@ -98,17 +98,26 @@ Your fork's `README.md` should be replaced with your own project documentation a
 
 Here are the screenshots showing the progress and functionality of the Multi-Container Runtime project:
 
-| Picture 1 | Picture 2 |
-| :---: | :---: |
-| ![Picture 1](./screenshots/Picture1.png) | ![Picture 2](./screenshots/Picture2.png) |
-| **Picture 3** | **Picture 4** |
-| ![Picture 3](./screenshots/Picture3.png) | ![Picture 4](./screenshots/Picture4.png) |
-| **Picture 5** | **Picture 6** |
-| ![Picture 5](./screenshots/Picture5.png) | ![Picture 6](./screenshots/Picture6.png) |
-| **Picture 7** | **Picture 8** |
-| ![Picture 7](./screenshots/Picture7.png) | ![Picture 8](./screenshots/Picture8.png) |
-| **Picture 9** | **Picture 10** |
-| ![Picture 9](./screenshots/Picture10.png) | ![Picture 10](./screenshots/Picture10.png) |
+<p align="center">
+  <img src="./screenshots/Picture1.png" width="45%" alt="Picture 1" />
+  <img src="./screenshots/Picture2.png" width="45%" alt="Picture 2" />
+</p>
+<p align="center">
+  <img src="./screenshots/Picture3.png" width="45%" alt="Picture 3" />
+  <img src="./screenshots/Picture4.png" width="45%" alt="Picture 4" />
+</p>
+<p align="center">
+  <img src="./screenshots/Picture5.png" width="45%" alt="Picture 5" />
+  <img src="./screenshots/Picture6.png" width="45%" alt="Picture 6" />
+</p>
+<p align="center">
+  <img src="./screenshots/Picture7.png" width="45%" alt="Picture 7" />
+  <img src="./screenshots/Picture8.png" width="45%" alt="Picture 8" />
+</p>
+<p align="center">
+  <img src="./screenshots/Picture9.png" width="45%" alt="Picture 9" />
+  <img src="./screenshots/Picture10.png" width="45%" alt="Picture 10" />
+</p>
 
 > [!NOTE]
 > All screenshots are stored in the `screenshots/` directory of this repository.
